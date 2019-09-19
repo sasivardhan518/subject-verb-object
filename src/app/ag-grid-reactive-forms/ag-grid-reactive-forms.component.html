@@ -1,0 +1,9 @@
+<div>Ag grid and Ng Select with Reactive forms</div>
+<br>
+<hr>
+
+<!-- <form [formGroup]="gridForm" style="height:70%" (ngSubmit)="onSubmit()"> -->
+<ag-grid-angular class="ag-theme-balham" style="height:70%" [context]="this.getContext()" [gridOptions]="gridOptions" [rowData]="rowData" [columnDefs]="columnDefs" (gridReady)="onGridReady($event)">
+</ag-grid-angular>
+<button class="btn-success" (click)="onSubmit()">Submit form</button>
+<!-- </form> -->

@@ -1,0 +1,9 @@
+<!-- <ng-container *ngIf="formCellGroup" [formGroup]="formCellGroup">
+<input class="text-input" type="text" id='key' [(ngModel)]="params.data[formControlKey]">
+</ng-container> -->
+
+<div class="row">
+    <span class="col-md-4" (click)="addRow()" style="cursor: pointer ;color: dodgerblue; width:20px;height:20px; margin:30px; font-size: 30px;">+</span>
+    <span class="col-md-4 pr-lg-5" (click)="copyRow()" style="cursor: pointer ;color: cornflowerblue; width:20px;height:20px; margin:30px; font-size: 20px;"><a>Copy</a></span>
+    <span class="col-md-4 pr-lg-5" (click)="deleteRow()" style="cursor: pointer ;color:cornflowerblue; width:20px;height:20px; margin:30px; font-size: 20px;"><a>Delete</a></span>
+</div>

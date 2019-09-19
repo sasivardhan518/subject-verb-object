@@ -1,0 +1,3 @@
+<!-- <ng-container *ngIf="formCellGroup" [formGroup]="formCellGroup"> -->
+<ng-select [items]="list" appendTo="body" [multiple]="false" (focus)="getOptions()" [(ngModel)]="params.data[formControlKey]"></ng-select>
+<!-- </ng-container> -->
